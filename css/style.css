@@ -1,0 +1,251 @@
+* { 
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+.Hero {
+    display: grid;
+    place-content: center;
+    width: 1200px;
+    height: 700px;
+    background-image: url(/assets/Desktop_Backgrounds_1920x1200_6\ 3.png);
+}
+
+.imagenlogo {
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+
+
+.Hero h1{
+    display: block;    
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    /* or 133% */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.Hero h2{
+display: block;
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+/* or 133% */
+
+text-align: center;
+
+color: rgba(255, 255, 255, 0.7);
+
+}
+
+.Hero img {
+
+    
+}
+
+
+
+
+
+.Main{
+display: grid;
+place-content: center;
+width: 1200px;
+height: 700px;
+left: 0px;
+
+background: #EEEEEE;
+
+}
+
+#btnconocer {
+font-family: 'Oswald Regular';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 26px;
+}
+
+.Main h2 {
+    height: 119px;
+    top: 887px;
+    margin-top: 0%;
+    padding-top: non;
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    /* or 133% */
+    text-align: center;
+    color: #464547;
+  }
+
+.Main h3{
+    display: block;
+    height: 57px;
+    top: 1046px;
+  
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    /* or 133% */
+  
+    text-align: center;
+  
+    color: #666666;
+  
+}
+
+.Main #p1 {
+    padding: 0px;
+    font-family: 'Itim', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+  
+    text-align: center;
+  
+    color: black;
+}
+
+.Main #p2 {
+    padding: 0px;
+  
+    font-family: 'Itim', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+  
+    text-align: center;
+  
+    color: black;
+}
+
+
+.container{
+height: 194px;
+width: 983px;
+left: 97px;
+top: 1151px;
+border-radius: nullpx;
+
+}
+
+.container p {
+    text-align: center;
+}
+
+
+.Main #btnred{
+    height: 36px;
+    width: 115px;
+    border-radius: 18px;
+    background: #55C2D8;
+    text-align: center;
+    color: white;
+    display: inline;
+    place-self: center;
+    font-family: 'Itim', cursive;
+    font-style: normal;
+    margin-top: 50px;
+}
+
+
+.Learn-more{
+    display: grid;
+    place-content: center;
+    width: 1200px;
+    height: 666px;
+    
+    background: url(/assets/learnmore.jpeg);
+
+}
+
+.Learn-more h2 {
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+  
+    text-align: center;
+  
+    color: #ffffff;
+  }
+
+  .Learn-more h3 {
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+  
+    text-align: center;
+    color: #ffffff;
+  }
+
+
+.Learn-more #btnplay {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    font-size: 70px;
+    background: #39c2d7;
+    color: #ffffff;
+    display: block;
+    place-self: center;
+    
+  }
+
+
+
+.Footer{
+    display: grid;
+    place-content: initial;
+    width: 1200px;
+    height: 170px;
+    background: #464547;
+    padding: none;
+    
+}
+
+.Footer #p1 {
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 16px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding-left: 50px;
+    margin-block: auto;
+    margin-bottom: 1%;
+  }
+  
+  .Footer #p2 {
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+  
+    color: rgba(255, 255, 255, 0.4);
+    padding-left: 50px;
+    margin-top: 0%;
+  }
